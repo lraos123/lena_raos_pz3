@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Video</title>
+	<link rel="stylesheet" href="css.css">
+	<style>
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Naslovna</a></li>
+			<li><a href="o_meni.html">O meni</a></li>
+			<li><a href="vjezbe.html">Vježbe</a></li>
+			<li><a href="video.html">Video</a></li>
+		</ul>
+	</nav>
+	<h1>Video - reklama za kadu</h1>
+	<section class="section-row">
+  <section>
+	<video width="540" height="540" controls>
+		<source src="videoreklama/videoreklama.mp4" type="video/mp4"></video>
+		</section>
+  <section>
+  	<p>Radila sam u <mark>Premiereu</mark>.</br>
+<mark>Prvi isječak</mark> je <mark>kinemagraf</mark> u kojem je pomićan dio voda koja pada iz pipe, što sam napravila tako što sam exportirala jedan frame iz videa, u photoshopu mu obrisala područje gdje voda teće, te tu sliku koristila kao masku u premieru tako što sam ju stavila iznad video isječka. Na njemu sam koristila <b>warp stabilizer</b> jer je originalan video bio nestabilan. Napravila sam da se lagano primiče gledatelju pomoću <b>motion - scale</b> i keyframeova te aplicirala <b>luma key</b> i <b>gaussian blur</b> koji postaje intenzivniji radi zamagljenog efekta.</br>
+U <mark>drugom isječku</mark> sam koristila <b>gaussian blur</b> i <b>levels</b> sa keyframeovima radi efekta da se prostorija zamagljuje. Također i <b>time remmaping</b> da ubrzam prvi dio, ali u odvojenom projektu te onda exportirala i koristila u glavnom videu da keyframeovi ostalih efekata ostanu vjerni svom mjestu na timelineu.</br>
+U <mark>trećem isječku</mark> sam koristila <b>rolling shutter repair</b> jer je svjetlo treperilo nakon usporavanja videa <b>time remmapingom</b>, koji sam na isti način koristila kao i za drugi isječak.</br>
+Kao prvu <mark>tranziciju</mark> ulaska u video sam koristila efekt <b>gradient wipe</b> sa apliciranom slikom balončića, za prijelaz s prvog na drugi isječak <b>dip in black</b> s time da duže traje na prvom isječku, za prijez s drugog na treći sam napravila fade in-fade out tako da se pomoću keyframeova <b>opacity</b> isječaka smanjuje, odnosno povećava na mjestu gdje se videi preklapaju te video završava efektom <b>band slide</b>.</br>
+Na <mark>svakom isječku</mark> sam koristila <b>levels</b> za korekciju tonova te <b>median</b> i <b>sharpen</b> za smanjenje zrnatosti.</br>
+Za <mark>animirani tekst</mark> sam koristila <b>motion</b> i <b>opacity</b>, a <mark>glazba</mark> se postepeno poglašnjava na početku videa i stišava na kraju pomoću <b>volume - level</b> i keyframeova.</p>
+
+  	</section>
+</section>
+</body>
+</html>
